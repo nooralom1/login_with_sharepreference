@@ -21,8 +21,8 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Colors.blue,
       ),
-      backgroundColor: Color(0xff99b3e6),
-      body: Center(
+      backgroundColor: const Color(0xff99b3e6),
+      body: const Center(
         child: Icon(Icons.home,color: Colors.white,size: 70,),
       ),
     );
